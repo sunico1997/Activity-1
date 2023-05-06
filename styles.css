@@ -1,0 +1,116 @@
+/* Header */
+.header {
+    background-color: rgba(0, 0, 0, 0.98);
+    background-image: url(./Image/inflicted.png);
+    color: #fff;
+    padding: 0.5rem 0 0 0;
+    margin: 0;
+}
+
+.follow {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1600px;
+}
+.about {
+    margin-bottom: 26px;
+}
+
+.main {
+    border-bottom: 1px solid #222;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all;
+    transition-duration: .5s;
+    margin-bottom: 26px;
+}
+.main .nav {
+    list-style: none;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1600px;
+    padding: 0;
+    display: flex;
+}
+.main .nav a:link, .main .nav a:visited {
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 2rem;
+    margin: 0;
+    font-weight: bold;
+    color: #000;
+}
+.nav a:hover:link, .nav a:hover:visited {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.home-layout h1, .home-layout h2, .panel-box h3, .example-layout h3 {
+    margin: 0;
+}
+/* Default designs for panels */
+.panel-box {
+    
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 1rem;
+    position: relative;
+}
+.panel-box > a:link, .panel-box > a:visited {
+    text-decoration: none;
+    color: #000;
+}
+.panel-primary a:link, .panel-primary a:visited, .homepage-bar a:link, .homepage-bar a:visited {
+    color: #fff;
+}
+/* For first panel, the "CSS Grid Layout"*/
+.panel-primary {
+    background-image: url(./img/inflicted.png) !important;
+    color: #fff;
+}
+/* For panel "Get Started Guide" */
+.homepage-bar {
+    background-color: #5e35b1;
+    color: #fff;
+    padding: 1rem;
+    position: relative;
+}
+.homepage-bar a {
+    text-decoration: none;
+}
+/* Slanted "New" with BG Color Green in "The Examples" panel (panel-b) */
+.flag-new::before {
+    content: "New!";
+    background-color: #087f23;
+    position: absolute;
+    top: -0.8rem;
+    left: -0.8rem;
+    padding: 0.3rem 0.5rem;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    transform: rotate(-20deg);
+}
+/* Footer CSS design */
+.footer {
+    background-color: rgba(0, 0, 0, 0.98);
+    background-image: url(./img/inflicted.png);
+    color: #000;
+    padding: 1rem 0;
+    margin: 4rem 0 0 0;
+    font-size: 85%;
+}
+.footer .wrapper {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 1rem;
+    border-radius: 3px;
+}
+.footer p {
+    margin: 0;
+    padding: 0;
+}
+.footer a:link, .footer a:visited {
+    color: #000;
+}
